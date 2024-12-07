@@ -82,14 +82,14 @@ slider5 = min(max(slider5, gainMin), gainMax);
 slider6 = min(max(slider6, gainMin), gainMax);
 slider7 = min(max(slider7, gainMin), gainMax);
 slider8 = min(max(slider8, gainMin), gainMax);
-slider9 = min(max(slider1, gainMin), gainMax);
-slider10 = min(max(slider2, gainMin), gainMax);
-slider11 = min(max(slider3, gainMin), gainMax);
-slider12 = min(max(slider4, gainMin), gainMax);
-slider13 = min(max(slider5, gainMin), gainMax);
-slider14 = min(max(slider6, gainMin), gainMax);
-slider15 = min(max(slider7, gainMin), gainMax);
-slider16 = min(max(slider8, gainMin), gainMax);
+slider9 = min(max(slider9, gainMin), gainMax);
+slider10 = min(max(slider10, gainMin), gainMax);
+slider11 = min(max(slider11, gainMin), gainMax);
+slider12 = min(max(slider12, gainMin), gainMax);
+slider13 = min(max(slider13, gainMin), gainMax);
+slider14 = min(max(slider14, gainMin), gainMax);
+slider15 = min(max(slider15, gainMin), gainMax);
+slider16 = min(max(slider16, gainMin), gainMax);
 
 levelA = 2 ^ (slider1 / 6);
 levelB = 2 ^ (slider2 / 6);
@@ -118,12 +118,12 @@ spl0 =  (spl0 * levelA)  +
     (spl8 * levelE) + 
     (spl10 * levelF)+ 
     (spl12 * levelG)+ 
-    (spl14 * levelH);
+    (spl14 * levelH)+
     (spl16 * levelI)  + 
-    (sp18 * levelJ) + 
-    (sp20 * levelK) + 
-    (sp22 * levelL) + 
-    (sp24 * levelM) + 
+    (spl18 * levelJ) + 
+    (spl20 * levelK) + 
+    (spl22 * levelL) + 
+    (spl24 * levelM) + 
     (spl26 * levelN)+ 
     (spl28 * levelO)+ 
     (spl30 * levelP);
@@ -136,7 +136,7 @@ spl1 =   (spl1 * levelA)  +
     (spl9 * levelE) + 
     (spl11 * levelF)+ 
     (spl13 * levelG)+ 
-    (spl15 * levelH);
+    (spl15 * levelH)+
     (spl17 * levelI)  + 
     (spl19 * levelJ) + 
     (spl21 * levelK) + 
